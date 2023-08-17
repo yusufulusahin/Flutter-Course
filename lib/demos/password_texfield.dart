@@ -23,8 +23,7 @@ class _PasswordTextFieldState extends State<PasswordTextField> {
       obscuringCharacter: '#',
       autofillHints: [AutofillHints.password],
       keyboardType: TextInputType.visiblePassword,
-      decoration:
-          InputDecoration(hintText: 'password', suffix: _onVisibility()),
+      decoration: InputDecoration(hintText: 'sifre', suffix: _onVisibility()),
     );
   }
 
