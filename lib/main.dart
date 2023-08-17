@@ -4,6 +4,7 @@ import 'package:kurs/202/theme/LighTema.dart';
 
 import '202/Theme_learn_View.dart';
 import '202/Widget_Size_Enum_Learn_view.dart';
+import '202/animated_Learn_View.dart';
 import '202/package_learn.dart';
 import '202/services/service_learn_view.dart';
 import '202/services/service_post_learn_view.dart';
@@ -55,7 +56,7 @@ class MyApp extends StatelessWidget {
       //             color: Colors.red,
       //             fontSize: 24,
       //             fontWeight: FontWeight.bold))),
-      home: ThemeLearnView(),
+      home: AnimatedLearnView(),
     );
   }
 }
