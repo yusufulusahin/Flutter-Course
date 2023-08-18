@@ -4,7 +4,7 @@ class LighTema {
   final _neededColor = _NeededColor();
 
   late ThemeData theme = ThemeData(
-      appBarTheme: AppBarTheme(
+      appBarTheme: const AppBarTheme(
           shape: RoundedRectangleBorder(
               borderRadius:
                   BorderRadius.vertical(bottom: Radius.circular(20)))),
